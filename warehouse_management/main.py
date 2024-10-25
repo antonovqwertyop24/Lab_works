@@ -1,7 +1,7 @@
-from product import Book, Electronics, Clothing
-from warehouse import Warehouse
-from rent_system import RentSystem
-from user_system import User
+from warehouse_management.core.product import Book, Electronics, Clothing
+from warehouse_management.core.warehouse import Warehouse
+from warehouse_management.core.rent_system import RentSystem
+from warehouse_management.core.user_system import User
 
 def add_product_to_warehouse(warehouse, name, quantity, price, product_type):
     if product_type == "book":
