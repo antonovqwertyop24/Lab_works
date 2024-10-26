@@ -1,0 +1,10 @@
+diff --git a/warehouse_management/main.py b/warehouse_management/main.py
+index 88d8525..51f806c 100644
+--- a/warehouse_management/main.py
++++ b/warehouse_management/main.py
+@@ -79,3 +79,4 @@ def main():
+ 
+ if __name__ == "__main__":
+     main()
++# Testing command git patch
+\ No newline at end of file
