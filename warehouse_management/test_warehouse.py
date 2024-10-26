@@ -1,8 +1,8 @@
 import unittest
-from warehouse_management.core.product import Book, Electronics, Clothing
-from warehouse_management.core.warehouse import Warehouse
-from warehouse_management.core.rent_system import RentSystem
-from warehouse_management.core.user_system import User
+from core.product import Book, Electronics, Clothing
+from core.warehouse import Warehouse
+from core.rent_system import RentSystem
+from core.user_system import User
 from main import add_product_to_warehouse, rent_product, return_product
 
 class TestWarehouseSystem(unittest.TestCase):

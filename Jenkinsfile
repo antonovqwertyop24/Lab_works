@@ -5,8 +5,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application..'
-                sh 'python3 warehouse_management/main.py --action add --name "New Book" --quantity 10 --price 19.99 --type book'
-                sh 'python3 warehouse_management/main.py --action show'
+                sh 'python3 warehouse_management/test_warehouse.py'
             }
         }
     }
