@@ -1,10 +1,25 @@
+diff --git a/changes.patch b/changes.patch
+index 95b00eb..e69de29 100644
+--- a/changes.patch
++++ b/changes.patch
+@@ -1,10 +0,0 @@
+-diff --git a/warehouse_management/main.py b/warehouse_management/main.py
+-index 88d8525..51f806c 100644
+---- a/warehouse_management/main.py
+-+++ b/warehouse_management/main.py
+-@@ -79,3 +79,4 @@ def main():
+- 
+- if __name__ == "__main__":
+-     main()
+-+# Testing command git patch
+-\ No newline at end of file
 diff --git a/warehouse_management/main.py b/warehouse_management/main.py
-index 88d8525..51f806c 100644
+index 51f806c..88d8525 100644
 --- a/warehouse_management/main.py
 +++ b/warehouse_management/main.py
-@@ -79,3 +79,4 @@ def main():
+@@ -79,4 +79,3 @@ def main():
  
  if __name__ == "__main__":
      main()
-+# Testing command git patch
+-# Testing command git patch
 \ No newline at end of file
