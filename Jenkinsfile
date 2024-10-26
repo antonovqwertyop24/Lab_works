@@ -5,7 +5,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application..'
-                sh 'python main.py' // Запуск основного скрипту
+                sh 'python3 main.py' // Запуск основного скрипту
             }
         }
     }
